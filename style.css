@@ -60,7 +60,7 @@ table {
   background-color: rgb(209, 204, 204);
 }
 thead tr {
-  background-color: #8f80f2; /* Purple row */
+  background-color: #8f80f2; 
   color: white;
 }
 th,td {
@@ -69,7 +69,7 @@ th,td {
   text-align: center;
 }
 tbody tr:hover {
-  background-color: #f0f0f0; /* Hover effect */
+  background-color: #f0f0f0; 
 }
 .body2{
     padding:15px 0 0 20px ;
