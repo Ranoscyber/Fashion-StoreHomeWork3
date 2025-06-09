@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.head {
+  width: 100vw;
+  height: 80px;
+  background-color: #7f6bdc;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navigation_bar {
+  display: flex;
+  gap: 200px;
+  align-items: center;
+  justify-content: center;
+}
+.navigation_bar img {
+  width: 50px;
+  margin: 20px 0 20px 0;
+  object-fit: cover;
+}
+.iteam:hover{
+    color: blue;
+    cursor: pointer;
+}
+.iteam {
+  text-align: center;
+  display: inline-block;
+}
+.body1 {
+  width: 100vw;
+  height: 650px;
+  background-color: rgb(209, 204, 204);
+  text-align: center;
+}
+.body1 img {
+  width: 80vw;
+  height: 300px;
+  object-fit: cover;
+  margin: 15px;
+}
+.sales-table {
+  background-color: ; 
+  padding: 40px;
+  text-align: center;
+}
+
+.sales-table h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+table {
+  margin: 0 auto;
+  width: 80%;
+  border-collapse: collapse;
+  background-color: rgb(209, 204, 204);
+}
+thead tr {
+  background-color: #8f80f2; /* Purple row */
+  color: white;
+}
+th,td {
+  border: 1px solid #aaa;
+  padding: 12px 15px;
+  text-align: center;
+}
+tbody tr:hover {
+  background-color: #f0f0f0; /* Hover effect */
+}
+.body2{
+    padding:15px 0 0 20px ;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 80px;
+    background-color: black;
+    color: white;
+}
